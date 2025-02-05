@@ -92,9 +92,13 @@ class UserLoginSerializer(serializers.Serializer):
 **6. Команды**
 
 rm -rf api/migrations/*.py
+
 rm db.sqlite3
+
 python manage.py makemigrations api
+
 python manage.py migrate
+
 
 **Новый запрос регистрации**
 
